@@ -1,29 +1,5 @@
 function varargout = IQMAT(varargin)
 % IQMAT M-file for IQMAT.fig
-%      IQMAT, by itself, creates a new IQMAT or raises the existing
-%      singleton*.
-%
-%      H = IQMAT returns the handle to a new IQMAT or the handle to
-%      the existing singleton*.
-%
-%      IQMAT('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in IQMAT.M with the given input arguments.
-%
-%      IQMAT('Property','Value',...) creates a new IQMAT or raises the
-%      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before IQMAT_OpeningFcn gets called.  An
-%      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to IQMAT_OpeningFcn via varargin.
-%
-%      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
-%      instance to run (singleton)".
-%
-% See also: GUIDE, GUIDATA, GUIHANDLES
-
-% Edit the above text to modify the response to help IQMAT
-
-% Last Modified by GUIDE v2.5 05-Feb-2017 17:06:37
-
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...

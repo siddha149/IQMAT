@@ -22,7 +22,7 @@ end
 
 % --- Executes just before IQMAT is made visible.
 function IQMAT_OpeningFcn(hObject, eventdata, handles, varargin)
-addpath(genpath('\'));
+addpath(genpath(pwd));
 % This function has no output args, see OutputFcn.
 % Choose default command line output for IQMAT
 handles.output = hObject;
